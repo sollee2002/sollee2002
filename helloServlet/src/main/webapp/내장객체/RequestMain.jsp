@@ -34,7 +34,8 @@ http://localhost:8090/%EB%82%B4%EC%9E%A5%EA%B0%9D%EC%B2%B4/RequestWebInfo.jsp
 	<h2>2. 클라이언트의 요청 매개변수 읽기</h2>
 	<form method="post" action="RequestParameter.jsp">
 	<!-- 다양한 input태그를 사용하여 서버에 값을 전달 해봅시다 -->
-		아이디 : <input type="text" name="id" value="" /><br />
+		아이디 : <input type="text" name="id" value="a" /><br />
+		아이디 : <input type="text" name="id" value="b" /><br />
         성별 :
         <input type="radio" name="sex" value="man" />남자
         <input type="radio" name="sex" value="woman" checked="checked" />여자
