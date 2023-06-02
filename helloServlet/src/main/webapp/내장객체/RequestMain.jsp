@@ -8,9 +8,6 @@
 </head>
 <body>
 
-http://localhost:8090/%EB%82%B4%EC%9E%A5%EA%B0%9D%EC%B2%B4/RequestWebInfo.jsp?eng=hello&han=%EC%95%88%EB%85%95
-http://localhost:8090/%EB%82%B4%EC%9E%A5%EA%B0%9D%EC%B2%B4/RequestWebInfo.jsp
-
 	<h2>1. 클라이언트와 서버의 환경정보 읽기</h2>
 	<!-- method를 지정하지않은 경우는 모두 get방식으로 호출됩니다. 
 	아무런 설정도 하지 않으면 기본이 get 방식-->
