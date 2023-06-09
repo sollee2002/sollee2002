@@ -13,9 +13,6 @@
 </head>
 <body> 
     <div class="wrap">
-        <!-- header.jsp -->
-        
-        <%@include file="header.jsp" %>
         <main>
             <aside id='leftside'>
 
@@ -89,9 +86,6 @@
                 </div>
             </aside>
         </main>        
-        
-        <!-- footer.jsp -->
-        <%@include file="footer.jsp" %>
     </div>
 </body>
 </html>

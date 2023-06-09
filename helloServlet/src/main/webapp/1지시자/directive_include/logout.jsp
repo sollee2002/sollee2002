@@ -8,9 +8,14 @@
 </head>
 <body>
 <%
-Integer.parseInt("a");
+	// 세션무효화
+	session.invalidate();
 
+	// 세션아이디 새로 발급
+	request.getSession(true);
+	
+	// 메인페이지로 이동
+	response.sendRedirect("gogreen.jsp");
 %>
-
 </body>
 </html>
