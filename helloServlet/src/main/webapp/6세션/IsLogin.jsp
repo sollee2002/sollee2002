@@ -8,15 +8,15 @@
 </head>
 <body>
 <%
-//세션 무효화
-session.invalidate();
-
-//세션 아이디 생성
-request.getSession(true);
-
-response.sendRedirect("gogreen.jsp");
+if(session.getAttribute("UserId") == null){
 %>
-
-
+	<script>
+		alert("로그인 후 이용 가능한 메뉴 입니다.");
+		location.href = "LoginForm.jsp";
+	</script>
+<%
+	return;
+}
+%>
 </body>
 </html>
